@@ -20,10 +20,10 @@ try {
     $mail->Port = 587;
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->SMTPAuth = true;
-    $mail->Username = 'example@gmail.com';
-    $mail->Password = 'password';
+    $mail->Username = 'pedro.hga90@gmail.com';
+    $mail->Password = 'A6263001a';
     $mail->setfrom($email);
-    $mail->addaddress('example@gmail.com');
+    $mail->addaddress('pedro.hga90@gmail.com');
     $mail->Subject = 'Hire me email from pedroarantes.com';
     $mail->msgHTML($body);
     $mail->send();
