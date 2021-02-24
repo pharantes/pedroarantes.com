@@ -13,7 +13,7 @@
 On terminal:
 
      $ npm install
-     $ gulp
+     $ npm run dev
      
 ## Live page
    [pedroarantes.com](https://www.pedroarantes.com)
