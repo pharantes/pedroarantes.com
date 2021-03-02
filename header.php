@@ -26,43 +26,41 @@
 </head>
 
 <body>
-  <?php wp_body_open(); ?>
-  <header>
-      <nav class="navbar navbar-expand-lg">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <!-- <li class="nav-item">
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light pl-0">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <!-- <li class="nav-item">
               <a class="nav-link custom-link" href="#">home</a>
             </li> -->
-            <li class="nav-item">
-              <button
-                type="button"
-                class="custom-link custom-btn"
-                data-toggle="modal"
-                data-target="#myModal"
-              >
-                hire me
-              </button>
-            </li>
-            <!-- <li class="nav-item">
+              <li class="nav-item">
+                <a
+                  class="custom-link custom-btn"
+                  href="mailto:pedro.hga90@gmail.com"
+                  >Contact <i class="fas fa-envelope"></i></a
+                >
+              </li>
+              <!-- <li class="nav-item">
               <a class="nav-link custom-link" href="#">portfolio</a>
             </li> -->
-            <!-- <li class="nav-item">
+              <!-- <li class="nav-item">
               <a class="nav-link custom-link" href="#">blog</a>
             </li> -->
-          </ul>
-        </div>
-      </nav>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
     <!-- END HEADER -->

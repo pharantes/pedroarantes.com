@@ -13,7 +13,7 @@ body {
 
 .navbar-nav {
   width: 100%;
-  justify-content: space-around;
+  // justify-content: space-around;
 }
 
 .custom-link {
@@ -31,7 +31,7 @@ body {
 
 .custom-link:hover {
   color: #4f4f4f;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 main {
@@ -112,7 +112,7 @@ main {
   padding-top: 40px;
 }
 
-.interests-list, .mobile-social-list {
+.interests-list, .social-list {
   padding: 0;
   width: 100%;
   display: flex;
@@ -121,12 +121,21 @@ main {
   list-style-type: none;
 }
 
-.mobile-social-list {
+.social-list {
   justify-content: start !important;
 }
+.social-list li {
+  margin-right: 26px;
+}
+
+
+
+
+
+
 
 footer {
-  padding: 40px 0 0 0;
+  padding: 0;
 }
 
 .footer-list {
@@ -147,6 +156,10 @@ footer {
 .slick-list.draggable {
   padding: 0 !important;
 }
+.slick-list, .slick-slider {
+  max-width: 800px;
+}
+
 
 .show_mobile {
   display: none;

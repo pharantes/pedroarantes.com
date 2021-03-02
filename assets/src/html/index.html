@@ -18,42 +18,41 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <!-- <li class="nav-item">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light pl-0">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <!-- <li class="nav-item">
               <a class="nav-link custom-link" href="#">home</a>
             </li> -->
-            <li class="nav-item">
-              <button
-                type="button"
-                class="custom-link custom-btn"
-                data-toggle="modal"
-                data-target="#myModal"
-              >
-                hire me
-              </button>
-            </li>
-            <!-- <li class="nav-item">
+              <li class="nav-item">
+                <a
+                  class="custom-link custom-btn"
+                  href="mailto:pedro.hga90@gmail.com"
+                  >Contact <i class="fas fa-envelope"></i></a
+                >
+              </li>
+              <!-- <li class="nav-item">
               <a class="nav-link custom-link" href="#">portfolio</a>
             </li> -->
-            <!-- <li class="nav-item">
+              <!-- <li class="nav-item">
               <a class="nav-link custom-link" href="#">blog</a>
             </li> -->
-          </ul>
-        </div>
-      </nav>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
     <!-- END HEADER -->
     <main>
@@ -69,6 +68,34 @@
                 <span class="avatar-role">web development</span>
               </p>
             </div>
+            <h1 class="title-small">Social</h1>
+            <ul class="social-list">
+              <li>
+                <a
+                  class="custom-link"
+                  target="blank"
+                  href="https://www.linkedin.com/in/pedro-arantes-a88099140/"
+                  >LinkedIn <i class="fab fa-linkedin"></i></a
+                >
+              </li>
+              <li>
+                <a
+                  class="custom-link"
+                  target="blank"
+                  href="https://github.com/pharantes?tab=overview"
+                  >Github <i class="fab fa-github-square"></i></a
+                >
+              </li>
+              <li>
+                <a
+                  class="custom-link"
+                  target="blank"
+                  href="https://resume.io/r/A2DgjS5"
+                  >Resume/CV <i class="fas fa-file"></i></a
+                >
+              </li>
+            </ul>
+
             <div class="article">
               <h1 class="title">
                 work <span class="title-small">and interests</span>
@@ -193,58 +220,8 @@
             </div>
           </div>
         </div>
-      </div>
-    </main>
-    <!-- END FRONTPAGE -->
-
-    <!-- START FOOTER -->
-    <footer>
-      <div class="container footer">
-        <div class="row justify-content-center">
-          <div class="col-4 hide_mobile">
-            <h1 class="title-small">Quick links</h1>
-            <ul class="footer-list">
-              <!-- <li><a class="custom-link" href="">Home</a></li> -->
-              <li>
-                <button
-                  type="button"
-                  class="custom-link custom-btn"
-                  data-toggle="modal"
-                  data-target="#myModal"
-                >
-                  Hire me
-                </button>
-              </li>
-              <!-- <li><a class="custom-link" href="">Portfolio</a></li> -->
-            </ul>
-          </div>
-          <div class="col-4 hide_mobile">
-            <h1 class="title-small">Social</h1>
-            <ul class="footer-list">
-              <li>
-                <a
-                  class="custom-link"
-                  target="blank"
-                  href="https://www.linkedin.com/in/pedro-arantes-a88099140/"
-                  >LinkedIn</a
-                >
-              </li>
-              <li>
-                <a
-                  class="custom-link"
-                  target="blank"
-                  href="https://github.com/pharantes?tab=overview"
-                  >Github</a
-                >
-              </li>
-              <li>
-                <a class="custom-link" href="mailto:pedro.hga90@gmail.com"
-                  >Email</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
+        <div class="row pt-5">
+          <div class="col">
             <h1 class="title-small">Testimonials</h1>
 
             <div class="testimonials-carousel">
@@ -333,16 +310,23 @@
             </div>
           </div>
         </div>
-        <div class="show_mobile row">
+      </div>
+    </main>
+    <!-- END FRONTPAGE -->
+
+    <!-- START FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row">
           <div class="col">
             <h1 class="title-small">Social</h1>
-            <ul class="mobile-social-list">
+            <ul class="social-list">
               <li>
                 <a
                   class="custom-link"
                   target="blank"
                   href="https://www.linkedin.com/in/pedro-arantes-a88099140/"
-                  >LinkedIn</a
+                  >LinkedIn <i class="fab fa-linkedin"></i></a
                 >
               </li>
               <li>
@@ -350,7 +334,7 @@
                   class="custom-link"
                   target="blank"
                   href="https://github.com/pharantes?tab=overview"
-                  >Github</a
+                  >Github <i class="fab fa-github-square"></i></a
                 >
               </li>
               <li>
@@ -358,32 +342,29 @@
                   class="custom-link"
                   target="blank"
                   href="https://resume.io/r/A2DgjS5"
-                  >Resume/CV</a
+                  >Resume/CV <i class="fas fa-file"></i></a
                 >
               </li>
             </ul>
           </div>
         </div>
-        <div class="show_mobile row">
+        <div class="row">
           <div class="col">
             <h1 class="title-small">Quick Links</h1>
-            <ul class="mobile-social-list">
-              <li>
-                <button
-                  type="button"
+            <ul class="social-list">
+              <li class="nav-item">
+                <a
                   class="custom-link custom-btn"
-                  data-toggle="modal"
-                  data-target="#myModal"
+                  href="mailto:pedro.hga90@gmail.com"
+                  >Contact <i class="fas fa-envelope"></i></a
                 >
-                  Hire me
-                </button>
               </li>
               <!-- <li><a class="custom-link" href="">Home</a></li> -->
               <!-- <li><a class="custom-link" href="">Portfolio</a></li> -->
             </ul>
           </div>
         </div>
-        <div class="row">
+        <div class="row pt-5">
           <div class="col">
             <p class="copyright">
               Copyright © <span id="year"></span> - Pedro Arantes. All rights
@@ -392,107 +373,6 @@
           </div>
         </div>
       </div>
-      <!-- CONTACT MODAL START -->
-
-      <div
-        class="modal fade"
-        id="myModal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="myModalTitle"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <div class="header">
-                <h5 class="modal-title" id="exampleModalLongTitle">
-                  want to hire me?
-                </h5>
-                <h6 class="modal-title" id="exampleModalLongTitle">
-                  Fill the form and I'll answer as soon as possible
-                </h6>
-              </div>
-
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <form id="hireme" name="hireme">
-              <div class="modal-body">
-                <div class="form-group">
-                  <label for="username">Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="username"
-                    placeholder="Ex.: Jhon Wick"
-                  />
-                </div>
-
-                <div class="form-group">
-                  <label for="email">Email address</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    aria-describedby="emailHelp"
-                    placeholder="jackbauer@example.com"
-                  />
-                  <small id="emailHelp" class="form-text text-muted"
-                    >We'll never share your email with anyone else.</small
-                  >
-                </div>
-                <div class="form-group">
-                  <label for="description">Describe what you need</label>
-                  <textarea
-                    class="form-control"
-                    id="description"
-                    placeholder="Ex.: I need a landing page with a form to get feedback from my users..."
-                    rows="6"
-                  ></textarea>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-dismiss="modal"
-                >
-                  Close
-                </button>
-                <button id="submit-form" type="submit" class="btn btn-primary">
-                  Submit
-                </button>
-                <div class="form__message">
-                  <img
-                    alt="Imagem de refresh"
-                    src="/svg/ring.svg"
-                    class="refresh"
-                  />
-                  <div class="alert alert-dark alert-dismissible" role="alert">
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="alert"
-                      aria-label="Close"
-                    >
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                    <p id="message_contact">Success!</p>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <!-- CONTACT MODAL END -->
     </footer>
     <!-- END FOOTER -->
 
